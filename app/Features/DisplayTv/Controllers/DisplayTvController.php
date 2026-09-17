@@ -1,0 +1,59 @@
+<?php
+
+namespace App\Features\DisplayTv\Controllers;
+
+use App\Models\Content;
+use App\Models\RunningText;
+use App\Models\Setting;
+use Illuminate\Routing\Controller;
+
+class DisplayTvController extends Controller
+{
+    public function index()
+    {
+        $schoolName = Setting::get('school_name', 'Mading TV Digital SMK');
+        $schoolTagline = Setting::get('school_tagline', 'Informasi & Karya Siswa Terpadu');
+        $schoolLogo = Setting::get('school_logo', '/images/logo-sekolah.png');
+
+        $activeSliders = Content::where('status', 'approved')
+            ->where(function ($query) {
+                $query->whereNull('start_date')
+                      ->orWhere('start_date', '<=', now());
+            })
+            ->where(function ($query) {
+                $query->whereNull('end_date')
+                      ->orWhere('end_date', '>=', now());
+            })
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        $runningTexts = RunningText::where('is_active', true)
+            ->orderBy('created_at', 'desc')
+            ->pluck('text')
+            ->toArray();
+
+        return view('display_tv.index', compact('schoolName', 'schoolTagline', 'schoolLogo', 'activeSliders', 'runningTexts'));
+    }
+
+    public function apiFeed()
+    {
+        $sliders = Content::where('status', 'approved')
+            ->where(function ($query) {
+                $query->whereNull('start_date')->orWhere('start_date', '<=', now());
+            })
+            ->where(function ($query) {
+                $query->whereNull('end_date')->orWhere('end_date', '>=', now());
+            })
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        $runningTexts = RunningText::where('is_active', true)
+            ->pluck('text');
+
+        return response()->json([
+            'sliders' => $sliders,
+            'running_texts' => $runningTexts,
+            'timestamp' => now()->toIso8601String(),
+        ]);
+    }
+}
