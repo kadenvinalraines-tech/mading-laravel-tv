@@ -4,6 +4,12 @@
 <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
     <div class="bg-gray-900 p-6 rounded-xl border border-gray-800">
         <h3 class="font-bold mb-4">Profil Sekolah</h3>
+        @if($schoolLogo = \App\Models\Setting::get('school_logo'))
+            <div class="mb-4 flex items-center space-x-3 bg-gray-950 p-2.5 rounded-lg border border-gray-800">
+                <img src="{{ $schoolLogo }}" class="h-10 w-10 object-contain rounded bg-gray-900" onerror="this.style.display='none'">
+                <span class="text-xs text-gray-400">Logo Saat Ini Aktif</span>
+            </div>
+        @endif
         <form action="{{ route('settings.updateProfile') }}" method="POST" enctype="multipart/form-data" class="space-y-3">@csrf
             <input type="text" name="school_name" value="{{ $schoolName }}" class="w-full p-2 bg-gray-950 rounded border border-gray-800 text-sm">
             <input type="text" name="school_tagline" value="{{ $schoolTagline }}" class="w-full p-2 bg-gray-950 rounded border border-gray-800 text-sm">

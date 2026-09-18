@@ -19,4 +19,5 @@
 /bootstrap/cache/*
 !/bootstrap/cache/.gitignore
 database/*.sqlite
+/public/storage
 /node_modules

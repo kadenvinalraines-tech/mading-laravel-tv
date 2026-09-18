@@ -9,6 +9,17 @@ use App\Features\RunningText\Controllers\RunningTextController;
 Route::get('/', [DisplayTvController::class, 'index'])->name('display.tv');
 Route::get('/api/mading/feed', [DisplayTvController::class, 'apiFeed'])->name('api.mading.feed');
 
+// Fallback media serving for local environments (e.g. Windows without storage:link symlink support)
+Route::get('/storage/{path}', function ($path) {
+    $fullPath = storage_path('app/public/' . $path);
+    if (!file_exists($fullPath)) {
+        abort(404);
+    }
+    $file = file_get_contents($fullPath);
+    $type = mime_content_type($fullPath) ?: 'application/octet-stream';
+    return response($file, 200)->header('Content-Type', $type);
+})->where('path', '.*')->name('storage.fallback');
+
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
