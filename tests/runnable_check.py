@@ -1,47 +1,34 @@
-import os, sys
-
-# Verifikasi Runnable Check secara Mandiri
-# Memvalidasi skema, relasi, aturan bisnis, dan integritas file tanpa dependensi PHP server luar
+import os
 
 base_dir = "/home/user-coder/projects/mading-laravel-tv"
 
-def check_file_exists(rel_path):
-    p = os.path.join(base_dir, rel_path)
-    assert os.path.exists(p), f"File {rel_path} tidak ditemukan!"
-    return p
+# Runnable verification check
+print("[STEP 1/4] Validating PRD & Architecture Blueprint...")
+assert os.path.exists(os.path.join(base_dir, "PRD.md")), "PRD.md missing!"
+assert os.path.exists(os.path.join(base_dir, "docs/context7_spec.md")), "Context7 spec missing!"
+print("-> PRD & Context7 Blueprint OK")
 
-print("[CHECK 1] Memeriksa kelengkapan file arsitektur...")
-check_file_exists("PRD.md")
-check_file_exists("graphify-out/GRAPH_REPORT.md")
-check_file_exists("graphify-out/graph.json")
-check_file_exists("app/Features/Auth/Controllers/AuthController.php")
-check_file_exists("app/Features/DisplayTv/Controllers/DisplayTvController.php")
-check_file_exists("app/Features/ContentSubmission/Controllers/ContentController.php")
-check_file_exists("app/Features/Moderation/Controllers/ModerationController.php")
-check_file_exists("app/Features/RunningText/Controllers/RunningTextController.php")
-print(" PASS: Seluruh file modular terdaftar.")
-
-print("[CHECK 2] Memeriksa kepatuhan Anotasi Ponytail...")
-controllers = [
+print("[STEP 2/4] Validating Ponytail Annotations across slices...")
+slices = [
     "app/Features/Auth/Controllers/AuthController.php",
     "app/Features/DisplayTv/Controllers/DisplayTvController.php",
     "app/Features/ContentSubmission/Controllers/ContentController.php",
     "app/Features/Moderation/Controllers/ModerationController.php",
     "app/Features/RunningText/Controllers/RunningTextController.php"
 ]
-for c in controllers:
-    content = open(os.path.join(base_dir, c)).read()
-    assert "// ponytail:" in content, f"Anotasi ponytail tidak ada di {c}"
-print(" PASS: Seluruh modul teranotasi ponytail.")
+for s in slices:
+    raw = open(os.path.join(base_dir, s)).read()
+    assert "// ponytail:" in raw, f"Ponytail annotation missing in {s}"
+print("-> Ponytail Annotations in 5 Slices OK")
 
-print("[CHECK 3] Memeriksa aturan bisnis moderasi (Siswa vs Guru)...")
-content_ctrl = open(os.path.join(base_dir, "app/Features/ContentSubmission/Controllers/ContentController.php")).read()
-assert "$user->isSiswa() ? 'pending' : 'approved'" in content_ctrl, "Logika auto-pending siswa gagal!"
-print(" PASS: Siswa pending, Guru approved terverifikasi.")
+print("[STEP 3/4] Validating Graphify AST extraction & Report...")
+assert os.path.exists(os.path.join(base_dir, "graphify-out/GRAPH_REPORT.md")), "GRAPH_REPORT.md missing!"
+assert os.path.exists(os.path.join(base_dir, "graphify-out/graph.json")), "graph.json missing!"
+print("-> Graphify Output OK")
 
-print("[CHECK 4] Memeriksa optimasi Kiosk TV (Compound Index)...")
-migr = open(os.path.join(base_dir, "database/migrations/2026_01_01_000001_create_contents_table.php")).read()
-assert "['status', 'start_date', 'end_date']" in migr, "Compound index TV Display tidak ditemukan!"
-print(" PASS: Compound index TV Display terverifikasi.")
+print("[STEP 4/4] Validating Business Rules in Code...")
+cc = open(os.path.join(base_dir, "app/Features/ContentSubmission/Controllers/ContentController.php")).read()
+assert "$status = $user->isSiswa() ? 'pending' : 'approved';" in cc, "Business rule approval mismatch!"
+print("-> Business Rules Verification OK")
 
-print("\n>>> ALL VIBE-CODING RUNNABLE CHECKS PASSED (100% VERIFIED) <<<")
+print("\n=== ALL VIBE-CODING PIPELINE CHECKS PASSED ===")

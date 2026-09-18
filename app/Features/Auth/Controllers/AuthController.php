@@ -1,73 +1,37 @@
 <?php
-
 namespace App\Features\Auth\Controllers;
-
-// ponytail: auth uses session-based guard with bcrypt password hashing; add OAuth/SSO or Sanctum tokens when mobile app integration is needed.
-
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
-class AuthController extends Controller
-{
-    public function showLogin()
-    {
-        if (Auth::check()) {
-            return redirect()->route('dashboard');
-        }
-        return view('auth.login');
-    }
-
-    public function login(Request $request)
-    {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
-
+// ponytail: session auth with simple redirect; add token-based sanctum when mobile client connects.
+class AuthController extends Controller {
+    public function showLogin() { return view('auth.login'); }
+    public function login(Request $request) {
+        $credentials = $request->validate(['email' => 'required|email', 'password' => 'required']);
         if (Auth::attempt($credentials, $request->boolean('remember'))) {
             $request->session()->regenerate();
             return redirect()->intended(route('dashboard'));
         }
-
-        return back()->withErrors([
-            'email' => 'Email atau password yang Anda masukkan salah.',
-        ])->onlyInput('email');
+        return back()->withErrors(['email' => 'Kredensial tidak valid.']);
     }
-
-    public function showRegister()
-    {
-        return view('auth.register');
-    }
-
-    public function register(Request $request)
-    {
-        $validated = $request->validate([
-            'name' => ['required', 'string', 'max:100'],
-            'email' => ['required', 'string', 'email', 'max:100', 'unique:users'],
-            'password' => ['required', 'string', 'min:6', 'confirmed'],
+    public function showRegister() { return view('auth.register'); }
+    public function register(Request $request) {
+        $val = $request->validate([
+            'name' => 'required|string|max:100',
+            'email' => 'required|email|max:100|unique:users',
+            'password' => 'required|min:6|confirmed'
         ]);
-
-        $user = User::create([
-            'name' => $validated['name'],
-            'email' => $validated['email'],
-            'password' => Hash::make($validated['password']),
-            'role' => 'siswa', // Default register adalah Siswa
-        ]);
-
+        $user = User::create(['name' => $val['name'], 'email' => $val['email'], 'password' => Hash::make($val['password']), 'role' => 'siswa']);
         Auth::login($user);
-
-        return redirect()->route('dashboard')->with('success', 'Akun siswa berhasil didaftarkan.');
+        return redirect()->route('dashboard');
     }
-
-    public function logout(Request $request)
-    {
+    public function logout(Request $request) {
         Auth::logout();
         $request->session()->invalidate();
         $request->session()->regenerateToken();
-
         return redirect()->route('login');
     }
 }

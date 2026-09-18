@@ -1,25 +1,14 @@
 <?php
-
 namespace App\Features\Auth\Middleware;
-
 use Closure;
 use Illuminate\Http\Request;
-use Symfony\Component\HttpFoundation\Response;
 
-class RoleMiddleware
-{
-    public function handle(Request $request, Closure $next, ...$roles): Response
-    {
-        if (!auth()->check()) {
-            return redirect()->route('login');
+// ponytail: basic role check based on user role column; add granular permissions when complex ACL is required.
+class RoleMiddleware {
+    public function handle(Request $request, Closure $next, ...$roles) {
+        if (!auth()->check() || !in_array(auth()->user()->role, $roles)) {
+            abort(403, 'Akses Ditolak');
         }
-
-        $user = auth()->user();
-
-        if (!in_array($user->role, $roles)) {
-            abort(403, 'Akses Ditolak: Anda tidak memiliki wewenang untuk membuka halaman ini.');
-        }
-
         return $next($request);
     }
 }

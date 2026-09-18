@@ -1,36 +1,6 @@
 {
   "communities": {
     "0": [
-      "composer",
-      "composer_autoload",
-      "composer_autoload_dev",
-      "composer_autoload_dev_psr_4",
-      "composer_autoload_psr_4",
-      "composer_description",
-      "composer_extra",
-      "composer_extra_laravel",
-      "composer_keywords",
-      "composer_laravel_dont_discover",
-      "composer_license",
-      "composer_minimum_stability",
-      "composer_name",
-      "composer_prefer_stable",
-      "composer_psr_4_app",
-      "composer_psr_4_database_factories",
-      "composer_psr_4_database_seeders",
-      "composer_psr_4_tests",
-      "composer_require",
-      "composer_require_guzzlehttp_guzzle",
-      "composer_require_laravel_framework",
-      "composer_require_laravel_sanctum",
-      "composer_require_laravel_tinker",
-      "composer_require_php",
-      "composer_scripts",
-      "composer_scripts_post_autoload_dump",
-      "composer_type"
-    ],
-    "1": [
-      "app_features_contentsubmission_controllers_contentcontroller",
       "app_features_contentsubmission_controllers_contentcontroller_contentcontroller",
       "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_create",
       "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_destroy",
@@ -39,7 +9,7 @@
       "app_features_displaytv_controllers_displaytvcontroller",
       "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller",
       "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller_apifeed",
-      "app_features_moderation_controllers_moderationcontroller",
+      "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller_index",
       "app_features_moderation_controllers_moderationcontroller_moderationcontroller",
       "app_features_moderation_controllers_moderationcontroller_moderationcontroller_approve",
       "app_features_moderation_controllers_moderationcontroller_moderationcontroller_index",
@@ -48,52 +18,10 @@
       "app_models_content_content_approver",
       "app_models_content_content_casts",
       "app_models_content_content_submitter",
-      "illuminate_routing_controller",
-      "illuminate_support_facades_auth",
       "illuminate_support_facades_route",
       "routes_web"
     ],
-    "2": [
-      "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller_index",
-      "app_features_runningtext_controllers_runningtextcontroller",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_destroy",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_index",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_store",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_toggle",
-      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_updateprofile",
-      "app_models_runningtext_runningtext",
-      "app_models_runningtext_runningtext_casts",
-      "app_models_runningtext_runningtext_creator",
-      "app_models_setting",
-      "app_models_setting_setting",
-      "app_models_setting_setting_get",
-      "app_models_setting_setting_set",
-      "database_seeders_databaseseeder",
-      "database_seeders_databaseseeder_databaseseeder",
-      "database_seeders_databaseseeder_databaseseeder_run",
-      "illuminate_database_eloquent_model",
-      "illuminate_database_seeder",
-      "illuminate_support_facades_hash"
-    ],
-    "3": [
-      "database_migrations_2026_01_01_000000_create_users_table",
-      "database_migrations_2026_01_01_000000_create_users_table_down",
-      "database_migrations_2026_01_01_000000_create_users_table_up",
-      "database_migrations_2026_01_01_000001_create_contents_table",
-      "database_migrations_2026_01_01_000001_create_contents_table_down",
-      "database_migrations_2026_01_01_000001_create_contents_table_up",
-      "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "database_migrations_2026_01_01_000002_create_running_texts_table_down",
-      "database_migrations_2026_01_01_000002_create_running_texts_table_up",
-      "database_migrations_2026_01_01_000003_create_settings_table",
-      "database_migrations_2026_01_01_000003_create_settings_table_down",
-      "database_migrations_2026_01_01_000003_create_settings_table_up",
-      "illuminate_database_migrations_migration",
-      "illuminate_database_schema_blueprint",
-      "illuminate_support_facades_schema"
-    ],
-    "4": [
+    "1": [
       "app_features_auth_controllers_authcontroller",
       "app_features_auth_controllers_authcontroller_authcontroller",
       "app_features_auth_controllers_authcontroller_authcontroller_login",
@@ -101,30 +29,15 @@
       "app_features_auth_controllers_authcontroller_authcontroller_register",
       "app_features_auth_controllers_authcontroller_authcontroller_showlogin",
       "app_features_auth_controllers_authcontroller_authcontroller_showregister",
-      "app_features_auth_middleware_rolemiddleware",
-      "app_features_auth_middleware_rolemiddleware_rolemiddleware",
-      "app_features_auth_middleware_rolemiddleware_rolemiddleware_handle",
-      "closure",
+      "app_features_contentsubmission_controllers_contentcontroller",
+      "app_features_moderation_controllers_moderationcontroller",
+      "app_features_runningtext_controllers_runningtextcontroller",
       "illuminate_http_request",
-      "public_index",
-      "symfony_component_httpfoundation_response"
+      "illuminate_routing_controller",
+      "illuminate_support_facades_auth",
+      "public_index"
     ],
-    "5": [
-      "package",
-      "package_devdependencies",
-      "package_devdependencies_axios",
-      "package_devdependencies_laravel_vite_plugin",
-      "package_devdependencies_vite",
-      "package_private",
-      "package_scripts",
-      "package_scripts_build",
-      "package_scripts_dev",
-      "package_type",
-      "ref_axios",
-      "ref_laravel_vite_plugin",
-      "ref_vite"
-    ],
-    "6": [
+    "2": [
       "app_models_content",
       "app_models_runningtext",
       "app_models_user",
@@ -134,79 +47,106 @@
       "app_models_user_user_isguru",
       "app_models_user_user_issiswa",
       "illuminate_database_eloquent_concerns_hasuuids",
-      "illuminate_database_eloquent_factories_hasfactory",
-      "illuminate_foundation_auth_user",
-      "illuminate_notifications_notifiable"
+      "illuminate_database_eloquent_model",
+      "illuminate_foundation_auth_user"
+    ],
+    "3": [
+      "composer",
+      "composer_autoload",
+      "composer_autoload_psr_4",
+      "composer_name",
+      "composer_psr_4_app",
+      "composer_psr_4_database_seeders",
+      "composer_require",
+      "composer_require_laravel_framework",
+      "composer_require_laravel_tinker",
+      "composer_require_php",
+      "composer_type"
+    ],
+    "4": [
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_destroy",
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_index",
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_store",
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_toggle",
+      "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_updateprofile",
+      "app_models_runningtext_runningtext",
+      "app_models_runningtext_runningtext_casts",
+      "app_models_runningtext_runningtext_creator"
+    ],
+    "5": [
+      "app_models_setting",
+      "app_models_setting_setting",
+      "app_models_setting_setting_get",
+      "app_models_setting_setting_set",
+      "database_seeders_databaseseeder",
+      "database_seeders_databaseseeder_databaseseeder",
+      "database_seeders_databaseseeder_databaseseeder_run",
+      "illuminate_database_seeder",
+      "illuminate_support_facades_hash"
+    ],
+    "6": [
+      "database_migrations_2026_01_01_000000_create_tables",
+      "database_migrations_2026_01_01_000000_create_tables_down",
+      "database_migrations_2026_01_01_000000_create_tables_up",
+      "illuminate_database_migrations_migration",
+      "illuminate_database_schema_blueprint",
+      "illuminate_support_facades_schema"
     ],
     "7": [
-      "composer_allow_plugins_pestphp_pest_plugin",
-      "composer_allow_plugins_php_http_discovery",
-      "composer_config",
-      "composer_config_allow_plugins",
-      "composer_config_optimize_autoloader",
-      "composer_config_preferred_install",
-      "composer_config_sort_packages"
+      "app_features_auth_middleware_rolemiddleware",
+      "app_features_auth_middleware_rolemiddleware_rolemiddleware",
+      "app_features_auth_middleware_rolemiddleware_rolemiddleware_handle",
+      "closure"
     ],
     "8": [
-      "composer_require_dev",
-      "composer_require_dev_fakerphp_faker",
-      "composer_require_dev_laravel_pint",
-      "composer_require_dev_mockery_mockery",
-      "composer_require_dev_nunomaduro_collision",
-      "composer_require_dev_phpunit_phpunit"
-    ],
-    "9": [
       "bootstrap_app",
       "illuminate_foundation_application",
-      "illuminate_foundation_configuration_exceptions",
       "illuminate_foundation_configuration_middleware"
     ],
+    "9": [
+      "artisan"
+    ],
     "10": [
-      "illuminate_foundation_inspiring",
-      "illuminate_support_facades_artisan",
-      "routes_console"
-    ],
-    "11": [
-      "artisan",
-      "kernel"
-    ],
-    "12": [
       "resources_views_auth_login_blade"
     ],
-    "13": [
+    "11": [
       "resources_views_auth_register_blade"
     ],
-    "14": [
+    "12": [
       "resources_views_contents_create_blade"
     ],
-    "15": [
+    "13": [
       "resources_views_contents_index_blade"
     ],
-    "16": [
+    "14": [
       "resources_views_display_tv_index_blade"
     ],
-    "17": [
+    "15": [
       "resources_views_layouts_app_blade"
     ],
-    "18": [
+    "16": [
       "resources_views_moderation_index_blade"
     ],
-    "19": [
+    "17": [
       "resources_views_running_text_index_blade"
+    ],
+    "18": [
+      "routes_console"
     ]
   },
   "cohesion": {
-    "0": 0.07407407407407407,
-    "1": 0.15584415584415584,
-    "2": 0.1619047619047619,
-    "3": 0.19047619047619047,
-    "4": 0.2087912087912088,
-    "5": 0.15384615384615385,
-    "6": 0.25757575757575757,
-    "7": 0.2857142857142857,
-    "8": 0.3333333333333333,
-    "9": 0.5,
-    "10": 0.6666666666666666,
+    "0": 0.15204678362573099,
+    "1": 0.25274725274725274,
+    "2": 0.23636363636363636,
+    "3": 0.18181818181818182,
+    "4": 0.3333333333333333,
+    "5": 0.2777777777777778,
+    "6": 0.3333333333333333,
+    "7": 0.6666666666666666,
+    "8": 0.6666666666666666,
+    "9": 1.0,
+    "10": 1.0,
     "11": 1.0,
     "12": 1.0,
     "13": 1.0,
@@ -214,24 +154,23 @@
     "15": 1.0,
     "16": 1.0,
     "17": 1.0,
-    "18": 1.0,
-    "19": 1.0
+    "18": 1.0
   },
   "gods": [
     {
       "id": "app_models_content_content",
       "label": "Content",
-      "degree": 20
+      "degree": 17
     },
     {
       "id": "app_models_runningtext_runningtext",
       "label": "RunningText",
-      "degree": 16
+      "degree": 15
     },
     {
       "id": "app_models_user_user",
       "label": "User",
-      "degree": 13
+      "degree": 11
     },
     {
       "id": "app_models_setting_setting",
@@ -239,13 +178,13 @@
       "degree": 11
     },
     {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
-      "label": "RunningTextController",
+      "id": "app_features_auth_controllers_authcontroller_authcontroller",
+      "label": "AuthController",
       "degree": 8
     },
     {
-      "id": "app_features_auth_controllers_authcontroller_authcontroller",
-      "label": "AuthController",
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
+      "label": "RunningTextController",
       "degree": 8
     },
     {
@@ -259,17 +198,28 @@
       "degree": 6
     },
     {
-      "id": "composer_require",
-      "label": "require",
-      "degree": 6
+      "id": "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller",
+      "label": "DisplayTvController",
+      "degree": 5
     },
     {
-      "id": "composer_require_dev",
-      "label": "require-dev",
-      "degree": 6
+      "id": "composer_require",
+      "label": "require",
+      "degree": 4
     }
   ],
   "surprises": [
+    {
+      "source": "ContentController",
+      "target": "Illuminate\\Routing\\Controller",
+      "source_files": [
+        "app/Features/ContentSubmission/Controllers/ContentController.php",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "note": "Bridges community 0 → community 1"
+    },
     {
       "source": "Content",
       "target": "Illuminate\\Database\\Eloquent\\Concerns\\HasUuids",
@@ -279,18 +229,18 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "mixes_in",
-      "note": "Bridges community 1 → community 6"
+      "note": "Bridges community 0 → community 2"
     },
     {
-      "source": "Content",
-      "target": "Illuminate\\Database\\Eloquent\\Model",
+      "source": "RunningTextController",
+      "target": "Illuminate\\Routing\\Controller",
       "source_files": [
-        "app/Models/Content.php",
+        "app/Features/RunningText/Controllers/RunningTextController.php",
         ""
       ],
       "confidence": "EXTRACTED",
       "relation": "inherits",
-      "note": "Bridges community 1 → community 2"
+      "note": "Bridges community 4 → community 1"
     },
     {
       "source": "RunningText",
@@ -301,45 +251,40 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "mixes_in",
-      "note": "Bridges community 2 → community 6"
+      "note": "Bridges community 4 → community 2"
     },
     {
-      "source": "AuthController",
-      "target": "Illuminate\\Routing\\Controller",
+      "source": "Setting",
+      "target": "Illuminate\\Database\\Eloquent\\Model",
       "source_files": [
-        "app/Features/Auth/Controllers/AuthController.php",
+        "app/Models/Setting.php",
         ""
       ],
       "confidence": "EXTRACTED",
       "relation": "inherits",
-      "note": "Bridges community 4 → community 1"
+      "note": "Bridges community 5 → community 2"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `Content` connect `Content` to `RunningText`, `User`?",
-      "why": "High betweenness centrality (0.054) - this node is a cross-community bridge."
+      "question": "Why does `Content` connect `Content` to `Illuminate\\Http\\Request`, `User`?",
+      "why": "High betweenness centrality (0.112) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `User` connect `User` to `RunningText`, `Illuminate\\Http\\Request`?",
-      "why": "High betweenness centrality (0.040) - this node is a cross-community bridge."
+      "question": "Why does `User` connect `User` to `Illuminate\\Http\\Request`, `Setting`?",
+      "why": "High betweenness centrality (0.089) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `RunningText` connect `RunningText` to `Content`, `User`?",
-      "why": "High betweenness centrality (0.033) - this node is a cross-community bridge."
+      "question": "Why does `RunningText` connect `RunningText` to `Content`, `Illuminate\\Http\\Request`, `User`, `Setting`?",
+      "why": "High betweenness centrality (0.088) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
-      "question": "What connects `description`, `keywords`, `dont-discover` to the rest of the system?",
-      "why": "38 weakly-connected nodes found - possible documentation gaps or missing edges."
-    },
-    {
-      "type": "low_cohesion",
-      "question": "Should `composer.json` be split into smaller, more focused modules?",
-      "why": "Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected."
+      "question": "What connects `name`, `App\\\\`, `Database\\\\Seeders\\\\` to the rest of the system?",
+      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
     }
   ]
 }

@@ -9,12 +9,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "contentcontroller",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L10"
+      "source_location": "L9"
     },
     {
       "id": "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller",
@@ -22,12 +22,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "displaytvcontroller",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L10"
+      "source_location": "L9"
     },
     {
       "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller",
@@ -35,12 +35,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "moderationcontroller",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L10"
+      "source_location": "L9"
     },
     {
       "id": "app_models_content_content",
@@ -48,64 +48,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "content",
       "source_file": "app/Models/Content.php",
-      "source_location": "L9"
-    },
-    {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
-      "label": "RunningTextController",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "runningtextcontroller",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L11"
-    },
-    {
-      "id": "app_models_runningtext_runningtext",
-      "label": "RunningText",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "runningtext",
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L9"
-    },
-    {
-      "id": "app_models_setting_setting",
-      "label": "Setting",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "setting",
-      "source_file": "app/Models/Setting.php",
-      "source_location": "L7"
-    },
-    {
-      "id": "database_seeders_databaseseeder_databaseseeder",
-      "label": "DatabaseSeeder",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "databaseseeder",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L12"
+      "source_location": "L6"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller",
@@ -113,25 +61,12 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": "authcontroller",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L11"
-    },
-    {
-      "id": "app_features_auth_middleware_rolemiddleware_rolemiddleware",
-      "label": "RoleMiddleware",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "rolemiddleware",
-      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L9"
+      "source_location": "L10"
     },
     {
       "id": "app_models_user_user",
@@ -139,806 +74,491 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "user",
       "source_file": "app/Models/User.php",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
+      "label": "RunningTextController",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "RunningText",
+      "file_type": "code",
+      "norm_label": "runningtextcontroller",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
       "source_location": "L10"
+    },
+    {
+      "id": "app_models_runningtext_runningtext",
+      "label": "RunningText",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "RunningText",
+      "file_type": "code",
+      "norm_label": "runningtext",
+      "source_file": "app/Models/RunningText.php",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_models_setting_setting",
+      "label": "Setting",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "setting",
+      "source_file": "app/Models/Setting.php",
+      "source_location": "L5"
+    },
+    {
+      "id": "database_seeders_databaseseeder_databaseseeder",
+      "label": "DatabaseSeeder",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "databaseseeder",
+      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_location": "L9"
+    },
+    {
+      "id": "app_features_auth_middleware_rolemiddleware_rolemiddleware",
+      "label": "RoleMiddleware",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "RoleMiddleware.php",
+      "file_type": "code",
+      "norm_label": "rolemiddleware",
+      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
+      "source_location": "L7"
     },
     {
       "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_create",
       "label": ".create()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": ".create()",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L24"
+      "source_location": "L16"
     },
     {
       "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_destroy",
       "label": ".destroy()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": ".destroy()",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L74"
+      "source_location": "L49"
     },
     {
       "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_index",
       "label": ".index()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": ".index()",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L12"
+      "source_location": "L10"
     },
     {
       "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller_store",
       "label": ".store()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": ".store()",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L29"
+      "source_location": "L17"
     },
     {
       "id": "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller_apifeed",
       "label": ".apiFeed()",
       "_callable": true,
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": ".apifeed()",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L38"
-    },
-    {
-      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_approve",
-      "label": ".approve()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".approve()",
-      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L28"
-    },
-    {
-      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_index",
-      "label": ".index()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".index()",
-      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L12"
-    },
-    {
-      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_reject",
-      "label": ".reject()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".reject()",
-      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L39"
-    },
-    {
-      "id": "app_models_content_content_approver",
-      "label": ".approver()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".approver()",
-      "source_file": "app/Models/Content.php",
-      "source_location": "L40"
-    },
-    {
-      "id": "app_models_content_content_casts",
-      "label": ".casts()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".casts()",
-      "source_file": "app/Models/Content.php",
-      "source_location": "L26"
-    },
-    {
-      "id": "app_models_content_content_submitter",
-      "label": ".submitter()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": ".submitter()",
-      "source_file": "app/Models/Content.php",
-      "source_location": "L35"
+      "source_location": "L24"
     },
     {
       "id": "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller_index",
       "label": ".index()",
       "_callable": true,
       "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
+      "community": 0,
+      "community_name": "Content",
       "file_type": "code",
       "norm_label": ".index()",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L12"
+      "source_location": "L10"
     },
     {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_destroy",
-      "label": ".destroy()",
+      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_approve",
+      "label": ".approve()",
       "_callable": true,
       "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
+      "community": 0,
+      "community_name": "Content",
       "file_type": "code",
-      "norm_label": ".destroy()",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L45"
-    },
-    {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_index",
-      "label": ".index()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".index()",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L13"
-    },
-    {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_store",
-      "label": ".store()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".store()",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L21"
-    },
-    {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_toggle",
-      "label": ".toggle()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".toggle()",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L36"
-    },
-    {
-      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_updateprofile",
-      "label": ".updateProfile()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".updateprofile()",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L51"
-    },
-    {
-      "id": "app_models_runningtext_runningtext_casts",
-      "label": ".casts()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".casts()",
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L19"
-    },
-    {
-      "id": "app_models_runningtext_runningtext_creator",
-      "label": ".creator()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".creator()",
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L26"
-    },
-    {
-      "id": "app_models_setting_setting_get",
-      "label": ".get()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".get()",
-      "source_file": "app/Models/Setting.php",
-      "source_location": "L12"
-    },
-    {
-      "id": "app_models_setting_setting_set",
-      "label": ".set()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".set()",
-      "source_file": "app/Models/Setting.php",
-      "source_location": "L18"
-    },
-    {
-      "id": "database_seeders_databaseseeder_databaseseeder_run",
-      "label": ".run()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": ".run()",
-      "source_file": "database/seeders/DatabaseSeeder.php",
+      "norm_label": ".approve()",
+      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
       "source_location": "L14"
     },
     {
-      "id": "database_migrations_2026_01_01_000000_create_users_table_down",
-      "label": "down()",
+      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_index",
+      "label": ".index()",
       "_callable": true,
       "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
+      "community": 0,
+      "community_name": "Content",
       "file_type": "code",
-      "norm_label": "down()",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L31"
+      "norm_label": ".index()",
+      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
+      "source_location": "L10"
     },
     {
-      "id": "database_migrations_2026_01_01_000000_create_users_table_up",
-      "label": "up()",
+      "id": "app_features_moderation_controllers_moderationcontroller_moderationcontroller_reject",
+      "label": ".reject()",
       "_callable": true,
       "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
+      "community": 0,
+      "community_name": "Content",
       "file_type": "code",
-      "norm_label": "up()",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L9"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000001_create_contents_table_down",
-      "label": "down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "down()",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L31"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000001_create_contents_table_up",
-      "label": "up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "up()",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L9"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000002_create_running_texts_table_down",
-      "label": "down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "down()",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L22"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000002_create_running_texts_table_up",
-      "label": "up()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "up()",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L9"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000003_create_settings_table_down",
-      "label": "down()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "down()",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
+      "norm_label": ".reject()",
+      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
       "source_location": "L18"
     },
     {
-      "id": "database_migrations_2026_01_01_000003_create_settings_table_up",
-      "label": "up()",
+      "id": "app_models_content_content_approver",
+      "label": ".approver()",
       "_callable": true,
       "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
+      "community": 0,
+      "community_name": "Content",
       "file_type": "code",
-      "norm_label": "up()",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
+      "norm_label": ".approver()",
+      "source_file": "app/Models/Content.php",
+      "source_location": "L13"
+    },
+    {
+      "id": "app_models_content_content_casts",
+      "label": ".casts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Content",
+      "file_type": "code",
+      "norm_label": ".casts()",
+      "source_file": "app/Models/Content.php",
       "source_location": "L9"
+    },
+    {
+      "id": "app_models_content_content_submitter",
+      "label": ".submitter()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "Content",
+      "file_type": "code",
+      "norm_label": ".submitter()",
+      "source_file": "app/Models/Content.php",
+      "source_location": "L12"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller_login",
       "label": ".login()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": ".login()",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L21"
+      "source_location": "L12"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller_logout",
       "label": ".logout()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": ".logout()",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L63"
+      "source_location": "L31"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller_register",
       "label": ".register()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": ".register()",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L43"
+      "source_location": "L21"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller_showlogin",
       "label": ".showLogin()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": ".showlogin()",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L13"
+      "source_location": "L11"
     },
     {
       "id": "app_features_auth_controllers_authcontroller_authcontroller_showregister",
       "label": ".showRegister()",
       "_callable": true,
       "_origin": "ast",
-      "community": 4,
+      "community": 1,
       "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
       "norm_label": ".showregister()",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L38"
-    },
-    {
-      "id": "app_features_auth_middleware_rolemiddleware_rolemiddleware_handle",
-      "label": ".handle()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": ".handle()",
-      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L11"
+      "source_location": "L20"
     },
     {
       "id": "app_models_user_user_casts",
       "label": ".casts()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": ".casts()",
       "source_file": "app/Models/User.php",
-      "source_location": "L26"
+      "source_location": "L10"
     },
     {
       "id": "app_models_user_user_isadmin",
       "label": ".isAdmin()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": ".isadmin()",
       "source_file": "app/Models/User.php",
-      "source_location": "L33"
+      "source_location": "L11"
     },
     {
       "id": "app_models_user_user_isguru",
       "label": ".isGuru()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": ".isguru()",
       "source_file": "app/Models/User.php",
-      "source_location": "L38"
+      "source_location": "L12"
     },
     {
       "id": "app_models_user_user_issiswa",
       "label": ".isSiswa()",
       "_callable": true,
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": ".issiswa()",
       "source_file": "app/Models/User.php",
-      "source_location": "L43"
-    },
-    {
-      "id": "composer",
-      "label": "composer.json",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "composer.json",
-      "source_file": "composer.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "composer_autoload",
-      "label": "autoload",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "autoload",
-      "source_file": "composer.json",
-      "source_location": "L26"
-    },
-    {
-      "id": "composer_autoload_dev",
-      "label": "autoload-dev",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "autoload-dev",
-      "source_file": "composer.json",
-      "source_location": "L33"
-    },
-    {
-      "id": "composer_autoload_dev_psr_4",
-      "label": "psr-4",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "psr-4",
-      "source_file": "composer.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "composer_autoload_psr_4",
-      "label": "psr-4",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "psr-4",
-      "source_file": "composer.json",
-      "source_location": "L27"
-    },
-    {
-      "id": "composer_description",
-      "label": "description",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "description",
-      "source_file": "composer.json",
-      "source_location": "L4"
-    },
-    {
-      "id": "composer_extra",
-      "label": "extra",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "extra",
-      "source_file": "composer.json",
-      "source_location": "L44"
-    },
-    {
-      "id": "composer_extra_laravel",
-      "label": "laravel",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "laravel",
-      "source_file": "composer.json",
-      "source_location": "L45"
-    },
-    {
-      "id": "composer_keywords",
-      "label": "keywords",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "keywords",
-      "source_file": "composer.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "composer_laravel_dont_discover",
-      "label": "dont-discover",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "dont-discover",
-      "source_file": "composer.json",
-      "source_location": "L46"
-    },
-    {
-      "id": "composer_license",
-      "label": "license",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "license",
-      "source_file": "composer.json",
-      "source_location": "L11"
-    },
-    {
-      "id": "composer_minimum_stability",
-      "label": "minimum-stability",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "minimum-stability",
-      "source_file": "composer.json",
-      "source_location": "L58"
-    },
-    {
-      "id": "composer_name",
-      "label": "name",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "name",
-      "source_file": "composer.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "composer_prefer_stable",
-      "label": "prefer-stable",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "prefer-stable",
-      "source_file": "composer.json",
-      "source_location": "L59"
-    },
-    {
-      "id": "composer_psr_4_app",
-      "label": "App\\\\",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "app\\\\",
-      "source_file": "composer.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "composer_psr_4_database_factories",
-      "label": "Database\\\\Factories\\\\",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "database\\\\factories\\\\",
-      "source_file": "composer.json",
-      "source_location": "L29"
-    },
-    {
-      "id": "composer_psr_4_database_seeders",
-      "label": "Database\\\\Seeders\\\\",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "database\\\\seeders\\\\",
-      "source_file": "composer.json",
-      "source_location": "L30"
-    },
-    {
-      "id": "composer_psr_4_tests",
-      "label": "Tests\\\\",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "tests\\\\",
-      "source_file": "composer.json",
-      "source_location": "L35"
-    },
-    {
-      "id": "composer_require",
-      "label": "require",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "require",
-      "source_file": "composer.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "composer_require_guzzlehttp_guzzle",
-      "label": "guzzlehttp/guzzle",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "guzzlehttp/guzzle",
-      "source_file": "composer.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "composer_require_laravel_framework",
-      "label": "laravel/framework",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "laravel/framework",
-      "source_file": "composer.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "composer_require_laravel_sanctum",
-      "label": "laravel/sanctum",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "laravel/sanctum",
-      "source_file": "composer.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "composer_require_laravel_tinker",
-      "label": "laravel/tinker",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "laravel/tinker",
-      "source_file": "composer.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "composer_require_php",
-      "label": "php",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
-      "file_type": "code",
-      "norm_label": "php",
-      "source_file": "composer.json",
       "source_location": "L13"
     },
     {
-      "id": "composer_scripts",
-      "label": "scripts",
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_destroy",
+      "label": ".destroy()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
+      "community": 4,
+      "community_name": "RunningText",
       "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "composer.json",
-      "source_location": "L38"
+      "norm_label": ".destroy()",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L28"
     },
     {
-      "id": "composer_scripts_post_autoload_dump",
-      "label": "post-autoload-dump",
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_index",
+      "label": ".index()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
+      "community": 4,
+      "community_name": "RunningText",
       "file_type": "code",
-      "norm_label": "post-autoload-dump",
-      "source_file": "composer.json",
-      "source_location": "L39"
+      "norm_label": ".index()",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L11"
     },
     {
-      "id": "composer_type",
-      "label": "type",
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_store",
+      "label": ".store()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "composer.json",
+      "community": 4,
+      "community_name": "RunningText",
       "file_type": "code",
-      "norm_label": "type",
-      "source_file": "composer.json",
-      "source_location": "L3"
+      "norm_label": ".store()",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L17"
     },
     {
-      "id": "app_features_contentsubmission_controllers_contentcontroller",
-      "label": "ContentController.php",
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_toggle",
+      "label": ".toggle()",
+      "_callable": true,
       "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
+      "community": 4,
+      "community_name": "RunningText",
       "file_type": "code",
-      "norm_label": "contentcontroller.php",
-      "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L1"
+      "norm_label": ".toggle()",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L22"
+    },
+    {
+      "id": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller_updateprofile",
+      "label": ".updateProfile()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "RunningText",
+      "file_type": "code",
+      "norm_label": ".updateprofile()",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L32"
+    },
+    {
+      "id": "app_models_runningtext_runningtext_casts",
+      "label": ".casts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "RunningText",
+      "file_type": "code",
+      "norm_label": ".casts()",
+      "source_file": "app/Models/RunningText.php",
+      "source_location": "L9"
+    },
+    {
+      "id": "app_models_runningtext_runningtext_creator",
+      "label": ".creator()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "RunningText",
+      "file_type": "code",
+      "norm_label": ".creator()",
+      "source_file": "app/Models/RunningText.php",
+      "source_location": "L10"
+    },
+    {
+      "id": "app_models_setting_setting_get",
+      "label": ".get()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": ".get()",
+      "source_file": "app/Models/Setting.php",
+      "source_location": "L8"
+    },
+    {
+      "id": "app_models_setting_setting_set",
+      "label": ".set()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": ".set()",
+      "source_file": "app/Models/Setting.php",
+      "source_location": "L12"
+    },
+    {
+      "id": "database_seeders_databaseseeder_databaseseeder_run",
+      "label": ".run()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": ".run()",
+      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_location": "L10"
+    },
+    {
+      "id": "database_migrations_2026_01_01_000000_create_tables_down",
+      "label": "down()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "down()",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L52"
+    },
+    {
+      "id": "database_migrations_2026_01_01_000000_create_tables_up",
+      "label": "up()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "up()",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L7"
+    },
+    {
+      "id": "app_features_auth_middleware_rolemiddleware_rolemiddleware_handle",
+      "label": ".handle()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "RoleMiddleware.php",
+      "file_type": "code",
+      "norm_label": ".handle()",
+      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
+      "source_location": "L8"
     },
     {
       "id": "app_features_displaytv_controllers_displaytvcontroller",
       "label": "DisplayTvController.php",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "displaytvcontroller.php",
@@ -946,43 +566,10 @@
       "source_location": "L1"
     },
     {
-      "id": "app_features_moderation_controllers_moderationcontroller",
-      "label": "ModerationController.php",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": "moderationcontroller.php",
-      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "illuminate_routing_controller",
-      "label": "Illuminate\\Routing\\Controller",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": "illuminate\\routing\\controller",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_support_facades_auth",
-      "label": "Illuminate\\Support\\Facades\\Auth",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "Content",
-      "file_type": "code",
-      "norm_label": "illuminate\\support\\facades\\auth",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "illuminate_support_facades_route",
       "label": "Illuminate\\Support\\Facades\\Route",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "illuminate\\support\\facades\\route",
@@ -993,7 +580,7 @@
       "id": "routes_web",
       "label": "web.php",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "community_name": "Content",
       "file_type": "code",
       "norm_label": "web.php",
@@ -1001,54 +588,98 @@
       "source_location": "L1"
     },
     {
-      "id": "illuminate_foundation_inspiring",
-      "label": "Illuminate\\Foundation\\Inspiring",
+      "id": "app_features_auth_controllers_authcontroller",
+      "label": "AuthController.php",
       "_origin": "ast",
-      "community": 10,
-      "community_name": "console.php",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
-      "norm_label": "illuminate\\foundation\\inspiring",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_support_facades_artisan",
-      "label": "Illuminate\\Support\\Facades\\Artisan",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "console.php",
-      "file_type": "code",
-      "norm_label": "illuminate\\support\\facades\\artisan",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "routes_console",
-      "label": "console.php",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "console.php",
-      "file_type": "code",
-      "norm_label": "console.php",
-      "source_file": "routes/console.php",
+      "norm_label": "authcontroller.php",
+      "source_file": "app/Features/Auth/Controllers/AuthController.php",
       "source_location": "L1"
     },
     {
-      "id": "artisan",
-      "label": "artisan",
+      "id": "app_features_contentsubmission_controllers_contentcontroller",
+      "label": "ContentController.php",
       "_origin": "ast",
-      "community": 11,
-      "community_name": "artisan",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
       "file_type": "code",
-      "norm_label": "artisan",
-      "source_file": "artisan",
+      "norm_label": "contentcontroller.php",
+      "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_features_moderation_controllers_moderationcontroller",
+      "label": "ModerationController.php",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "moderationcontroller.php",
+      "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "app_features_runningtext_controllers_runningtextcontroller",
+      "label": "RunningTextController.php",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "runningtextcontroller.php",
+      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "illuminate_http_request",
+      "label": "Illuminate\\Http\\Request",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "illuminate\\http\\request",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "illuminate_routing_controller",
+      "label": "Illuminate\\Routing\\Controller",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "illuminate\\routing\\controller",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "illuminate_support_facades_auth",
+      "label": "Illuminate\\Support\\Facades\\Auth",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "illuminate\\support\\facades\\auth",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "public_index",
+      "label": "index.php",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "Illuminate\\Http\\Request",
+      "file_type": "code",
+      "norm_label": "index.php",
+      "source_file": "public/index.php",
       "source_location": "L1"
     },
     {
       "id": "resources_views_auth_login_blade",
       "label": "login.blade.php",
       "_origin": "ast",
-      "community": 12,
+      "community": 10,
       "community_name": "login.blade.php",
       "file_type": "code",
       "norm_label": "login.blade.php",
@@ -1059,7 +690,7 @@
       "id": "resources_views_auth_register_blade",
       "label": "register.blade.php",
       "_origin": "ast",
-      "community": 13,
+      "community": 11,
       "community_name": "register.blade.php",
       "file_type": "code",
       "norm_label": "register.blade.php",
@@ -1070,7 +701,7 @@
       "id": "resources_views_contents_create_blade",
       "label": "create.blade.php",
       "_origin": "ast",
-      "community": 14,
+      "community": 12,
       "community_name": "create.blade.php",
       "file_type": "code",
       "norm_label": "create.blade.php",
@@ -1081,7 +712,7 @@
       "id": "resources_views_contents_index_blade",
       "label": "contents/index.blade.php",
       "_origin": "ast",
-      "community": 15,
+      "community": 13,
       "community_name": "contents/index.blade.php",
       "file_type": "code",
       "norm_label": "contents/index.blade.php",
@@ -1092,7 +723,7 @@
       "id": "resources_views_display_tv_index_blade",
       "label": "display_tv/index.blade.php",
       "_origin": "ast",
-      "community": 16,
+      "community": 14,
       "community_name": "display_tv/index.blade.php",
       "file_type": "code",
       "norm_label": "display_tv/index.blade.php",
@@ -1103,7 +734,7 @@
       "id": "resources_views_layouts_app_blade",
       "label": "app.blade.php",
       "_origin": "ast",
-      "community": 17,
+      "community": 15,
       "community_name": "app.blade.php",
       "file_type": "code",
       "norm_label": "app.blade.php",
@@ -1114,7 +745,7 @@
       "id": "resources_views_moderation_index_blade",
       "label": "moderation/index.blade.php",
       "_origin": "ast",
-      "community": 18,
+      "community": 16,
       "community_name": "moderation/index.blade.php",
       "file_type": "code",
       "norm_label": "moderation/index.blade.php",
@@ -1125,7 +756,7 @@
       "id": "resources_views_running_text_index_blade",
       "label": "running_text/index.blade.php",
       "_origin": "ast",
-      "community": 19,
+      "community": 17,
       "community_name": "running_text/index.blade.php",
       "file_type": "code",
       "norm_label": "running_text/index.blade.php",
@@ -1133,362 +764,21 @@
       "source_location": null
     },
     {
-      "id": "app_features_runningtext_controllers_runningtextcontroller",
-      "label": "RunningTextController.php",
+      "id": "routes_console",
+      "label": "console.php",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
+      "community": 18,
+      "community_name": "console.php",
       "file_type": "code",
-      "norm_label": "runningtextcontroller.php",
-      "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
+      "norm_label": "console.php",
+      "source_file": "routes/console.php",
       "source_location": "L1"
-    },
-    {
-      "id": "app_models_setting",
-      "label": "Setting.php",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "setting.php",
-      "source_file": "app/Models/Setting.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "database_seeders_databaseseeder",
-      "label": "DatabaseSeeder.php",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "databaseseeder.php",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "illuminate_database_eloquent_model",
-      "label": "Illuminate\\Database\\Eloquent\\Model",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "illuminate\\database\\eloquent\\model",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_database_seeder",
-      "label": "Illuminate\\Database\\Seeder",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "illuminate\\database\\seeder",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_support_facades_hash",
-      "label": "Illuminate\\Support\\Facades\\Hash",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "RunningText",
-      "file_type": "code",
-      "norm_label": "illuminate\\support\\facades\\hash",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "database_migrations_2026_01_01_000000_create_users_table",
-      "label": "2026_01_01_000000_create_users_table.php",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "2026_01_01_000000_create_users_table.php",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000001_create_contents_table",
-      "label": "2026_01_01_000001_create_contents_table.php",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "2026_01_01_000001_create_contents_table.php",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "label": "2026_01_01_000002_create_running_texts_table.php",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "2026_01_01_000002_create_running_texts_table.php",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "database_migrations_2026_01_01_000003_create_settings_table",
-      "label": "2026_01_01_000003_create_settings_table.php",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "2026_01_01_000003_create_settings_table.php",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "illuminate_database_migrations_migration",
-      "label": "Illuminate\\Database\\Migrations\\Migration",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "illuminate\\database\\migrations\\migration",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_database_schema_blueprint",
-      "label": "Illuminate\\Database\\Schema\\Blueprint",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "illuminate\\database\\schema\\blueprint",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_support_facades_schema",
-      "label": "Illuminate\\Support\\Facades\\Schema",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "2026_01_01_000000_create_users_table.php",
-      "file_type": "code",
-      "norm_label": "illuminate\\support\\facades\\schema",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "app_features_auth_controllers_authcontroller",
-      "label": "AuthController.php",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "authcontroller.php",
-      "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "app_features_auth_middleware_rolemiddleware",
-      "label": "RoleMiddleware.php",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "rolemiddleware.php",
-      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "closure",
-      "label": "Closure",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "closure",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "illuminate_http_request",
-      "label": "Illuminate\\Http\\Request",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "illuminate\\http\\request",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "public_index",
-      "label": "index.php",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "index.php",
-      "source_file": "public/index.php",
-      "source_location": "L1"
-    },
-    {
-      "id": "symfony_component_httpfoundation_response",
-      "label": "Symfony\\Component\\HttpFoundation\\Response",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Illuminate\\Http\\Request",
-      "file_type": "code",
-      "norm_label": "symfony\\component\\httpfoundation\\response",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "package",
-      "label": "package.json",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "package.json",
-      "source_file": "package.json",
-      "source_location": "L1"
-    },
-    {
-      "id": "package_devdependencies",
-      "label": "devDependencies",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "devdependencies",
-      "source_file": "package.json",
-      "source_location": "L8"
-    },
-    {
-      "id": "package_devdependencies_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "axios",
-      "source_file": "package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "package_devdependencies_laravel_vite_plugin",
-      "label": "laravel-vite-plugin",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "laravel-vite-plugin",
-      "source_file": "package.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "package_devdependencies_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L11"
-    },
-    {
-      "id": "package_private",
-      "label": "private",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "private",
-      "source_file": "package.json",
-      "source_location": "L2"
-    },
-    {
-      "id": "package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "package.json",
-      "source_location": "L4"
-    },
-    {
-      "id": "package_scripts_build",
-      "label": "build",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "build",
-      "source_file": "package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "package_scripts_dev",
-      "label": "dev",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "dev",
-      "source_file": "package.json",
-      "source_location": "L5"
-    },
-    {
-      "id": "package_type",
-      "label": "type",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "type",
-      "source_file": "package.json",
-      "source_location": "L3"
-    },
-    {
-      "id": "ref_axios",
-      "label": "axios",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "axios",
-      "source_file": "package.json",
-      "source_location": "L9"
-    },
-    {
-      "id": "ref_laravel_vite_plugin",
-      "label": "laravel-vite-plugin",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "laravel-vite-plugin",
-      "source_file": "package.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "ref_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L11"
     },
     {
       "id": "app_models_content",
       "label": "Content.php",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "content.php",
@@ -1499,7 +789,7 @@
       "id": "app_models_runningtext",
       "label": "RunningText.php",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "runningtext.php",
@@ -1510,7 +800,7 @@
       "id": "app_models_user",
       "label": "User.php",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "user.php",
@@ -1521,7 +811,7 @@
       "id": "illuminate_database_eloquent_concerns_hasuuids",
       "label": "Illuminate\\Database\\Eloquent\\Concerns\\HasUuids",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "illuminate\\database\\eloquent\\concerns\\hasuuids",
@@ -1529,13 +819,13 @@
       "source_location": ""
     },
     {
-      "id": "illuminate_database_eloquent_factories_hasfactory",
-      "label": "Illuminate\\Database\\Eloquent\\Factories\\HasFactory",
+      "id": "illuminate_database_eloquent_model",
+      "label": "Illuminate\\Database\\Eloquent\\Model",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
-      "norm_label": "illuminate\\database\\eloquent\\factories\\hasfactory",
+      "norm_label": "illuminate\\database\\eloquent\\model",
       "source_file": "",
       "source_location": ""
     },
@@ -1543,7 +833,7 @@
       "id": "illuminate_foundation_auth_user",
       "label": "Illuminate\\Foundation\\Auth\\User",
       "_origin": "ast",
-      "community": 6,
+      "community": 2,
       "community_name": "User",
       "file_type": "code",
       "norm_label": "illuminate\\foundation\\auth\\user",
@@ -1551,164 +841,241 @@
       "source_location": ""
     },
     {
-      "id": "illuminate_notifications_notifiable",
-      "label": "Illuminate\\Notifications\\Notifiable",
+      "id": "composer",
+      "label": "composer.json",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "User",
+      "community": 3,
+      "community_name": "composer.json",
       "file_type": "code",
-      "norm_label": "illuminate\\notifications\\notifiable",
+      "norm_label": "composer.json",
+      "source_file": "composer.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "composer_autoload",
+      "label": "autoload",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "autoload",
+      "source_file": "composer.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "composer_autoload_psr_4",
+      "label": "psr-4",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "psr-4",
+      "source_file": "composer.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "composer_name",
+      "label": "name",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "name",
+      "source_file": "composer.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "composer_psr_4_app",
+      "label": "App\\\\",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "app\\\\",
+      "source_file": "composer.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "composer_psr_4_database_seeders",
+      "label": "Database\\\\Seeders\\\\",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "database\\\\seeders\\\\",
+      "source_file": "composer.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "composer_require",
+      "label": "require",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "require",
+      "source_file": "composer.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "composer_require_laravel_framework",
+      "label": "laravel/framework",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "laravel/framework",
+      "source_file": "composer.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "composer_require_laravel_tinker",
+      "label": "laravel/tinker",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "laravel/tinker",
+      "source_file": "composer.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "composer_require_php",
+      "label": "php",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "php",
+      "source_file": "composer.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "composer_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "composer.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "composer.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "app_models_setting",
+      "label": "Setting.php",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "setting.php",
+      "source_file": "app/Models/Setting.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "database_seeders_databaseseeder",
+      "label": "DatabaseSeeder.php",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "databaseseeder.php",
+      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "illuminate_database_seeder",
+      "label": "Illuminate\\Database\\Seeder",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "illuminate\\database\\seeder",
       "source_file": "",
       "source_location": ""
     },
     {
-      "id": "composer_allow_plugins_pestphp_pest_plugin",
-      "label": "pestphp/pest-plugin",
+      "id": "illuminate_support_facades_hash",
+      "label": "Illuminate\\Support\\Facades\\Hash",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Setting",
+      "file_type": "code",
+      "norm_label": "illuminate\\support\\facades\\hash",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "database_migrations_2026_01_01_000000_create_tables",
+      "label": "2026_01_01_000000_create_tables.php",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "2026_01_01_000000_create_tables.php",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "illuminate_database_migrations_migration",
+      "label": "Illuminate\\Database\\Migrations\\Migration",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "illuminate\\database\\migrations\\migration",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "illuminate_database_schema_blueprint",
+      "label": "Illuminate\\Database\\Schema\\Blueprint",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "illuminate\\database\\schema\\blueprint",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "illuminate_support_facades_schema",
+      "label": "Illuminate\\Support\\Facades\\Schema",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "2026_01_01_000000_create_tables.php",
+      "file_type": "code",
+      "norm_label": "illuminate\\support\\facades\\schema",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "app_features_auth_middleware_rolemiddleware",
+      "label": "RoleMiddleware.php",
       "_origin": "ast",
       "community": 7,
-      "community_name": "config",
+      "community_name": "RoleMiddleware.php",
       "file_type": "code",
-      "norm_label": "pestphp/pest-plugin",
-      "source_file": "composer.json",
-      "source_location": "L54"
+      "norm_label": "rolemiddleware.php",
+      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
+      "source_location": "L1"
     },
     {
-      "id": "composer_allow_plugins_php_http_discovery",
-      "label": "php-http/discovery",
+      "id": "closure",
+      "label": "Closure",
       "_origin": "ast",
       "community": 7,
-      "community_name": "config",
+      "community_name": "RoleMiddleware.php",
       "file_type": "code",
-      "norm_label": "php-http/discovery",
-      "source_file": "composer.json",
-      "source_location": "L55"
-    },
-    {
-      "id": "composer_config",
-      "label": "config",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "config",
-      "file_type": "code",
-      "norm_label": "config",
-      "source_file": "composer.json",
-      "source_location": "L49"
-    },
-    {
-      "id": "composer_config_allow_plugins",
-      "label": "allow-plugins",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "config",
-      "file_type": "code",
-      "norm_label": "allow-plugins",
-      "source_file": "composer.json",
-      "source_location": "L53"
-    },
-    {
-      "id": "composer_config_optimize_autoloader",
-      "label": "optimize-autoloader",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "config",
-      "file_type": "code",
-      "norm_label": "optimize-autoloader",
-      "source_file": "composer.json",
-      "source_location": "L50"
-    },
-    {
-      "id": "composer_config_preferred_install",
-      "label": "preferred-install",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "config",
-      "file_type": "code",
-      "norm_label": "preferred-install",
-      "source_file": "composer.json",
-      "source_location": "L51"
-    },
-    {
-      "id": "composer_config_sort_packages",
-      "label": "sort-packages",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "config",
-      "file_type": "code",
-      "norm_label": "sort-packages",
-      "source_file": "composer.json",
-      "source_location": "L52"
-    },
-    {
-      "id": "composer_require_dev",
-      "label": "require-dev",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "require-dev",
-      "source_file": "composer.json",
-      "source_location": "L19"
-    },
-    {
-      "id": "composer_require_dev_fakerphp_faker",
-      "label": "fakerphp/faker",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "fakerphp/faker",
-      "source_file": "composer.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "composer_require_dev_laravel_pint",
-      "label": "laravel/pint",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "laravel/pint",
-      "source_file": "composer.json",
-      "source_location": "L21"
-    },
-    {
-      "id": "composer_require_dev_mockery_mockery",
-      "label": "mockery/mockery",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "mockery/mockery",
-      "source_file": "composer.json",
-      "source_location": "L22"
-    },
-    {
-      "id": "composer_require_dev_nunomaduro_collision",
-      "label": "nunomaduro/collision",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "nunomaduro/collision",
-      "source_file": "composer.json",
-      "source_location": "L23"
-    },
-    {
-      "id": "composer_require_dev_phpunit_phpunit",
-      "label": "phpunit/phpunit",
-      "_origin": "ast",
-      "community": 8,
-      "community_name": "require-dev",
-      "file_type": "code",
-      "norm_label": "phpunit/phpunit",
-      "source_file": "composer.json",
-      "source_location": "L24"
+      "norm_label": "closure",
+      "source_file": "",
+      "source_location": ""
     },
     {
       "id": "bootstrap_app",
       "label": "app.php",
       "_origin": "ast",
-      "community": 9,
+      "community": 8,
       "community_name": "app.php",
       "file_type": "code",
       "norm_label": "app.php",
@@ -1719,7 +1086,7 @@
       "id": "illuminate_foundation_application",
       "label": "Illuminate\\Foundation\\Application",
       "_origin": "ast",
-      "community": 9,
+      "community": 8,
       "community_name": "app.php",
       "file_type": "code",
       "norm_label": "illuminate\\foundation\\application",
@@ -1727,21 +1094,10 @@
       "source_location": ""
     },
     {
-      "id": "illuminate_foundation_configuration_exceptions",
-      "label": "Illuminate\\Foundation\\Configuration\\Exceptions",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "app.php",
-      "file_type": "code",
-      "norm_label": "illuminate\\foundation\\configuration\\exceptions",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
       "id": "illuminate_foundation_configuration_middleware",
       "label": "Illuminate\\Foundation\\Configuration\\Middleware",
       "_origin": "ast",
-      "community": 9,
+      "community": 8,
       "community_name": "app.php",
       "file_type": "code",
       "norm_label": "illuminate\\foundation\\configuration\\middleware",
@@ -1749,15 +1105,15 @@
       "source_location": ""
     },
     {
-      "id": "kernel",
-      "label": "kernel",
-      "community": 11,
+      "id": "artisan",
+      "label": "artisan",
+      "_origin": "ast",
+      "community": 9,
       "community_name": "artisan",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "kernel",
-      "source_file": "",
-      "type": "external"
+      "file_type": "code",
+      "norm_label": "artisan",
+      "source_file": "artisan",
+      "source_location": "L1"
     }
   ],
   "links": [
@@ -1770,7 +1126,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L51",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -1782,7 +1138,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L77",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -1794,7 +1150,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L15",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -1806,7 +1162,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L46",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -1818,7 +1174,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L54",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -1830,7 +1186,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L40",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -1842,7 +1198,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L50",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -1854,7 +1210,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L14",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -1866,7 +1222,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L18",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -1878,7 +1234,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L30",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -1890,7 +1246,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L30",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -1902,7 +1258,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L14",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -1914,7 +1270,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L42",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -1926,7 +1282,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L47",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -1938,7 +1294,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L15",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -1950,7 +1306,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L16",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -1962,7 +1318,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L27",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -1974,7 +1330,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L38",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -1986,7 +1342,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L59",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -1998,7 +1354,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L63",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -2010,7 +1366,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L17",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -2022,7 +1378,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L22",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -2034,19 +1390,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L44",
-      "weight": 1.0
-    },
-    {
-      "source": "database_seeders_databaseseeder_databaseseeder_run",
-      "target": "app_models_content_content",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L57",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -2058,7 +1402,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2070,7 +1414,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2082,7 +1426,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2094,7 +1438,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2106,7 +1450,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2118,7 +1462,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2130,19 +1474,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "app_features_auth_middleware_rolemiddleware",
-      "target": "symfony_component_httpfoundation_response",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L7",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2154,7 +1486,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2166,7 +1498,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2178,7 +1510,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2190,7 +1522,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2202,7 +1534,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2214,7 +1546,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2226,7 +1558,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2238,7 +1570,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2250,7 +1582,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2262,7 +1594,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2274,7 +1606,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2286,7 +1618,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2298,7 +1630,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2310,7 +1642,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2322,7 +1654,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2334,7 +1666,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L8",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2346,7 +1678,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2358,19 +1690,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/Content.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_content",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "app/Models/Content.php",
-      "source_location": "L6",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2382,7 +1702,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/Content.php",
-      "source_location": "L7",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2394,19 +1714,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_runningtext",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L6",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2418,7 +1726,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L7",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2430,7 +1738,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/Setting.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2442,19 +1750,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/User.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_user",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "app/Models/User.php",
-      "source_location": "L6",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2466,30 +1762,6 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "app/Models/User.php",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_user",
-      "target": "illuminate_notifications_notifiable",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "app/Models/User.php",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "artisan",
-      "target": "kernel",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "artisan",
       "source_location": "L4",
       "weight": 1.0
     },
@@ -2502,19 +1774,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "bootstrap/app.php",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "bootstrap_app",
-      "target": "illuminate_foundation_configuration_exceptions",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "bootstrap/app.php",
-      "source_location": "L4",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -2526,163 +1786,43 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "bootstrap/app.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
-      "source": "database_migrations_2026_01_01_000000_create_users_table",
+      "source": "database_migrations_2026_01_01_000000_create_tables",
       "target": "illuminate_database_migrations_migration",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L3",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
-      "source": "database_migrations_2026_01_01_000000_create_users_table",
+      "source": "database_migrations_2026_01_01_000000_create_tables",
       "target": "illuminate_database_schema_blueprint",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000000_create_users_table",
-      "target": "illuminate_support_facades_schema",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000001_create_contents_table",
-      "target": "illuminate_database_migrations_migration",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
       "source_location": "L3",
       "weight": 1.0
     },
     {
-      "source": "database_migrations_2026_01_01_000001_create_contents_table",
-      "target": "illuminate_database_schema_blueprint",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000001_create_contents_table",
+      "source": "database_migrations_2026_01_01_000000_create_tables",
       "target": "illuminate_support_facades_schema",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "target": "illuminate_database_migrations_migration",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "target": "illuminate_database_schema_blueprint",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
       "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "target": "illuminate_support_facades_schema",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000003_create_settings_table",
-      "target": "illuminate_database_migrations_migration",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000003_create_settings_table",
-      "target": "illuminate_database_schema_blueprint",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000003_create_settings_table",
-      "target": "illuminate_support_facades_schema",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "database_seeders_databaseseeder",
-      "target": "app_models_setting_setting",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -2694,7 +1834,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L5",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2706,7 +1846,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L6",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -2718,7 +1858,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L7",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "database_seeders_databaseseeder",
+      "target": "app_models_setting_setting",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "database/seeders/DatabaseSeeder.php",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -2730,55 +1882,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "database_seeders_databaseseeder",
-      "target": "app_models_content_content",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_laravel_vite_plugin",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_vite",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_axios",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2790,31 +1894,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "public/index.php",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "routes_console",
-      "target": "illuminate_foundation_inspiring",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "routes/console.php",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "routes_console",
-      "target": "illuminate_support_facades_artisan",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "routes/console.php",
-      "source_location": "L4",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -2826,12 +1906,24 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "routes/web.php",
-      "source_location": "L3",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
       "source": "routes_web",
       "target": "app_features_displaytv_controllers_displaytvcontroller_displaytvcontroller",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "routes/web.php",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "routes_web",
+      "target": "app_features_auth_controllers_authcontroller_authcontroller",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2843,7 +1935,7 @@
     },
     {
       "source": "routes_web",
-      "target": "app_features_auth_controllers_authcontroller_authcontroller",
+      "target": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2855,7 +1947,7 @@
     },
     {
       "source": "routes_web",
-      "target": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller",
+      "target": "app_features_moderation_controllers_moderationcontroller_moderationcontroller",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2867,18 +1959,6 @@
     },
     {
       "source": "routes_web",
-      "target": "app_features_moderation_controllers_moderationcontroller_moderationcontroller",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "routes/web.php",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "routes_web",
       "target": "app_features_runningtext_controllers_runningtextcontroller_runningtextcontroller",
       "relation": "imports",
       "_origin": "ast",
@@ -2886,7 +1966,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "routes/web.php",
-      "source_location": "L8",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -2898,7 +1978,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L21",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -2910,7 +1990,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L63",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -2922,7 +2002,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L43",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -2934,7 +2014,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L11",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -2946,7 +2026,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L11",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -2958,7 +2038,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L29",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -2970,7 +2050,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L39",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -2982,7 +2062,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L21",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -2994,19 +2074,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "app_features_auth_middleware_rolemiddleware_rolemiddleware_handle",
-      "target": "symfony_component_httpfoundation_response",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "return_type",
-      "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L11",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -3017,7 +2085,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3028,7 +2096,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L9",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -3039,7 +2107,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3050,7 +2118,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3061,7 +2129,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3072,7 +2140,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3083,7 +2151,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Content.php",
-      "source_location": "L9",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3094,7 +2162,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L9",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3105,7 +2173,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Setting.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -3116,40 +2184,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_license",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_require",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_require_dev",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L19",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3165,17 +2200,6 @@
     },
     {
       "source": "composer",
-      "target": "composer_autoload",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
       "target": "composer_type",
       "relation": "contains",
       "_origin": "ast",
@@ -3187,29 +2211,7 @@
     },
     {
       "source": "composer",
-      "target": "composer_autoload_dev",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L33",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_scripts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L38",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_description",
+      "target": "composer_require",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3220,57 +2222,13 @@
     },
     {
       "source": "composer",
-      "target": "composer_extra",
+      "target": "composer_autoload",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L44",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_config",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L49",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_keywords",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_minimum_stability",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L58",
-      "weight": 1.0
-    },
-    {
-      "source": "composer",
-      "target": "composer_prefer_stable",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L59",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3281,29 +2239,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L27",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_autoload_dev",
-      "target": "composer_autoload_dev_psr_4",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_autoload_dev_psr_4",
-      "target": "composer_psr_4_tests",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L35",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3314,18 +2250,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L28",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_autoload_psr_4",
-      "target": "composer_psr_4_database_factories",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L29",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -3336,95 +2261,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config",
-      "target": "composer_config_optimize_autoloader",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L50",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config",
-      "target": "composer_config_preferred_install",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config",
-      "target": "composer_config_sort_packages",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L52",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config",
-      "target": "composer_config_allow_plugins",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config_allow_plugins",
-      "target": "composer_allow_plugins_pestphp_pest_plugin",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L54",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_config_allow_plugins",
-      "target": "composer_allow_plugins_php_http_discovery",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L55",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_extra",
-      "target": "composer_extra_laravel",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L45",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_extra_laravel",
-      "target": "composer_laravel_dont_discover",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L46",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -3435,18 +2272,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_require",
-      "target": "composer_require_guzzlehttp_guzzle",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L14",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -3457,18 +2283,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_require",
-      "target": "composer_require_laravel_sanctum",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L16",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3479,161 +2294,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "composer.json",
-      "source_location": "L17",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
-      "source": "composer_require_dev",
-      "target": "composer_require_dev_fakerphp_faker",
+      "source": "database_migrations_2026_01_01_000000_create_tables",
+      "target": "database_migrations_2026_01_01_000000_create_tables_down",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L20",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
-      "source": "composer_require_dev",
-      "target": "composer_require_dev_laravel_pint",
+      "source": "database_migrations_2026_01_01_000000_create_tables",
+      "target": "database_migrations_2026_01_01_000000_create_tables_up",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_require_dev",
-      "target": "composer_require_dev_mockery_mockery",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_require_dev",
-      "target": "composer_require_dev_nunomaduro_collision",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_require_dev",
-      "target": "composer_require_dev_phpunit_phpunit",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L24",
-      "weight": 1.0
-    },
-    {
-      "source": "composer_scripts",
-      "target": "composer_scripts_post_autoload_dump",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "composer.json",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000000_create_users_table",
-      "target": "database_migrations_2026_01_01_000000_create_users_table_down",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000000_create_users_table",
-      "target": "database_migrations_2026_01_01_000000_create_users_table_up",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000000_create_users_table.php",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000001_create_contents_table",
-      "target": "database_migrations_2026_01_01_000001_create_contents_table_down",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000001_create_contents_table",
-      "target": "database_migrations_2026_01_01_000001_create_contents_table_up",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000001_create_contents_table.php",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "target": "database_migrations_2026_01_01_000002_create_running_texts_table_down",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000002_create_running_texts_table",
-      "target": "database_migrations_2026_01_01_000002_create_running_texts_table_up",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000002_create_running_texts_table.php",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000003_create_settings_table",
-      "target": "database_migrations_2026_01_01_000003_create_settings_table_down",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "database_migrations_2026_01_01_000003_create_settings_table",
-      "target": "database_migrations_2026_01_01_000003_create_settings_table_up",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "database/migrations/2026_01_01_000003_create_settings_table.php",
-      "source_location": "L9",
+      "source_file": "database/migrations/2026_01_01_000000_create_tables.php",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -3644,106 +2327,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_private",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_type",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_scripts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "package_devdependencies",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_laravel_vite_plugin",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_vite",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_axios",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
       "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "package_scripts",
-      "target": "package_scripts_dev",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "package_scripts",
-      "target": "package_scripts_build",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3754,7 +2338,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3765,7 +2349,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3776,7 +2360,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3787,7 +2371,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L10",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3798,7 +2382,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L11",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3809,7 +2393,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Content.php",
-      "source_location": "L9",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3820,7 +2404,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L9",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3831,7 +2415,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Setting.php",
-      "source_location": "L7",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -3842,7 +2426,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L10",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3853,7 +2437,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L12",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3864,7 +2448,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L13",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -3875,7 +2459,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L21",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -3886,7 +2470,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L38",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -3897,7 +2481,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L43",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -3908,7 +2492,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Controllers/AuthController.php",
-      "source_location": "L63",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -3919,7 +2503,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Auth/Middleware/RoleMiddleware.php",
-      "source_location": "L11",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3930,7 +2514,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L12",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3941,7 +2525,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L24",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -3952,7 +2536,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L29",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -3963,7 +2547,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/ContentSubmission/Controllers/ContentController.php",
-      "source_location": "L74",
+      "source_location": "L49",
       "weight": 1.0
     },
     {
@@ -3974,7 +2558,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L12",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3985,7 +2569,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/DisplayTv/Controllers/DisplayTvController.php",
-      "source_location": "L38",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -3996,7 +2580,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L12",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -4007,7 +2591,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L28",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -4018,7 +2602,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/Moderation/Controllers/ModerationController.php",
-      "source_location": "L39",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -4029,7 +2613,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L13",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -4040,7 +2624,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L21",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -4051,7 +2635,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L36",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -4062,7 +2646,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L45",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -4073,18 +2657,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Features/RunningText/Controllers/RunningTextController.php",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_content_content",
-      "target": "app_models_content_content_casts",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/Models/Content.php",
-      "source_location": "L26",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -4095,7 +2668,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Content.php",
-      "source_location": "L35",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -4106,18 +2679,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Content.php",
-      "source_location": "L40",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
-      "source": "app_models_runningtext_runningtext",
-      "target": "app_models_runningtext_runningtext_casts",
+      "source": "app_models_content_content",
+      "target": "app_models_content_content_casts",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L19",
+      "source_file": "app/Models/Content.php",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -4128,18 +2701,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L26",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
-      "source": "app_models_setting_setting",
-      "target": "app_models_setting_setting_get",
+      "source": "app_models_runningtext_runningtext",
+      "target": "app_models_runningtext_runningtext_casts",
       "relation": "method",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "app/Models/Setting.php",
-      "source_location": "L12",
+      "source_file": "app/Models/RunningText.php",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -4150,7 +2723,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Setting.php",
-      "source_location": "L18",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "app_models_setting_setting",
+      "target": "app_models_setting_setting_get",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/Models/Setting.php",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -4161,7 +2745,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L26",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -4172,7 +2756,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L33",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -4183,7 +2767,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L38",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -4194,7 +2778,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L43",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -4205,7 +2789,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "database/seeders/DatabaseSeeder.php",
-      "source_location": "L14",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -4216,18 +2800,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/Content.php",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_content_content",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "mixes_in",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/Models/Content.php",
-      "source_location": "L11",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -4238,18 +2811,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/RunningText.php",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_runningtext_runningtext",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "mixes_in",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/Models/RunningText.php",
-      "source_location": "L11",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -4260,32 +2822,10 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "app/Models/User.php",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_user_user",
-      "target": "illuminate_database_eloquent_factories_hasfactory",
-      "relation": "mixes_in",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/Models/User.php",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "app_models_user_user",
-      "target": "illuminate_notifications_notifiable",
-      "relation": "mixes_in",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "app/Models/User.php",
-      "source_location": "L12",
+      "source_location": "L7",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d87e02250126ea4ba25509cef4e53d02c8e595be"
+  "built_at_commit": "e824d5dfeb58bbeb4382ade94cf48969b797c920"
 }
