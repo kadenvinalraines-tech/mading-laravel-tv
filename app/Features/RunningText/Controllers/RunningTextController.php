@@ -2,6 +2,8 @@
 
 namespace App\Features\RunningText\Controllers;
 
+// ponytail: running text uses simple boolean flag and created_at sorting; add scheduling timestamps and priority weights when announcement queues become congested.
+
 use App\Models\RunningText;
 use App\Models\Setting;
 use Illuminate\Http\Request;

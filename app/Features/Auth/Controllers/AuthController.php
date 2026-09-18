@@ -2,6 +2,8 @@
 
 namespace App\Features\Auth\Controllers;
 
+// ponytail: auth uses session-based guard with bcrypt password hashing; add OAuth/SSO or Sanctum tokens when mobile app integration is needed.
+
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

@@ -2,6 +2,8 @@
 
 namespace App\Features\Moderation\Controllers;
 
+// ponytail: moderation workflow supports binary approve/reject with text notes; upgrade to multi-tier approval matrix when multiple departments moderate independently.
+
 use App\Models\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

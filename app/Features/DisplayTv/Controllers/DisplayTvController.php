@@ -2,6 +2,8 @@
 
 namespace App\Features\DisplayTv\Controllers;
 
+// ponytail: auto-slide uses client-side javascript interval and periodic full page refresh (15m); upgrade to WebSockets (Reverb/Pusher) when instantaneous push updates are required.
+
 use App\Models\Content;
 use App\Models\RunningText;
 use App\Models\Setting;

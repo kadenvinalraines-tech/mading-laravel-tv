@@ -2,6 +2,8 @@
 
 namespace App\Features\ContentSubmission\Controllers;
 
+// ponytail: media upload stored locally in public disk with basic MIME check; add chunked upload, FFmpeg transcoding, and S3 storage when 4K video files are supported.
+
 use App\Models\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
