@@ -190,13 +190,13 @@
       "degree": 9
     },
     {
-      "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller",
-      "label": "ContentController",
+      "id": "app_features_auth_controllers_authcontroller_authcontroller",
+      "label": "AuthController",
       "degree": 8
     },
     {
-      "id": "app_features_auth_controllers_authcontroller_authcontroller",
-      "label": "AuthController",
+      "id": "app_features_contentsubmission_controllers_contentcontroller_contentcontroller",
+      "label": "ContentController",
       "degree": 8
     },
     {
@@ -217,28 +217,6 @@
   ],
   "surprises": [
     {
-      "source": "Content",
-      "target": "Illuminate\\Database\\Eloquent\\Concerns\\HasUuids",
-      "source_files": [
-        "app/Models/Content.php",
-        ""
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "mixes_in",
-      "note": "Bridges community 0 → community 5"
-    },
-    {
-      "source": "Content",
-      "target": "Illuminate\\Database\\Eloquent\\Model",
-      "source_files": [
-        "app/Models/Content.php",
-        ""
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "inherits",
-      "note": "Bridges community 0 → community 2"
-    },
-    {
       "source": "RunningText",
       "target": "Illuminate\\Database\\Eloquent\\Concerns\\HasUuids",
       "source_files": [
@@ -247,7 +225,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "mixes_in",
-      "note": "Bridges community 1 → community 5"
+      "note": "Bridges community 1 \u2192 community 5"
     },
     {
       "source": "RunningText",
@@ -258,55 +236,44 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "inherits",
-      "note": "Bridges community 1 → community 2"
+      "note": "Bridges community 1 \u2192 community 2"
     },
     {
-      "source": "RunningTextController",
+      "source": "AuthController",
       "target": "Illuminate\\Routing\\Controller",
       "source_files": [
-        "app/Features/RunningText/Controllers/RunningTextController.php",
+        "app/Features/Auth/Controllers/AuthController.php",
         ""
       ],
       "confidence": "EXTRACTED",
       "relation": "inherits",
-      "note": "Bridges community 1 → community 0"
+      "note": "Bridges community 3 \u2192 community 0"
+    },
+    {
+      "source": "Content",
+      "target": "Illuminate\\Database\\Eloquent\\Concerns\\HasUuids",
+      "source_files": [
+        "app/Models/Content.php",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "mixes_in",
+      "note": "Bridges community 0 \u2192 community 5"
+    },
+    {
+      "source": "Content",
+      "target": "Illuminate\\Database\\Eloquent\\Model",
+      "source_files": [
+        "app/Models/Content.php",
+        ""
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "inherits",
+      "note": "Bridges community 0 \u2192 community 2"
     }
   ],
-  "questions": [
-    {
-      "type": "bridge_node",
-      "question": "Why does `Content` connect `Content` to `RunningText`, `runnable_test.php`, `User`?",
-      "why": "High betweenness centrality (0.079) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `User` connect `User` to `RunningText`, `runnable_test.php`, `Illuminate\\Http\\Request`?",
-      "why": "High betweenness centrality (0.072) - this node is a cross-community bridge."
-    },
-    {
-      "type": "bridge_node",
-      "question": "Why does `RunningText` connect `RunningText` to `Content`, `runnable_test.php`, `User`?",
-      "why": "High betweenness centrality (0.065) - this node is a cross-community bridge."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 6 inferred relationships involving `Content` (e.g. with `.destroy()` and `.index()`) actually correct?",
-      "why": "`Content` has 6 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 4 inferred relationships involving `RunningText` (e.g. with `.destroy()` and `.index()`) actually correct?",
-      "why": "`RunningText` has 4 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "verify_inferred",
-      "question": "Are the 2 inferred relationships involving `Setting` (e.g. with `.index()` and `.updateProfile()`) actually correct?",
-      "why": "`Setting` has 2 INFERRED edges - model-reasoned connections that need verification."
-    },
-    {
-      "type": "isolated_nodes",
-      "question": "What connects `name`, `App\\\\`, `Database\\\\Seeders\\\\` to the rest of the system?",
-      "why": "7 weakly-connected nodes found - possible documentation gaps or missing edges."
-    }
-  ]
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
 }
