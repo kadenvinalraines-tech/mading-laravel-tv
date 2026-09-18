@@ -20,6 +20,28 @@
             <form action="{{ route('logout') }}" method="POST">@csrf<button type="submit" class="text-xs bg-red-900 px-2.5 py-1 rounded">Keluar</button></form>
         </div>
     </nav>
-    <main class="flex-1 max-w-7xl w-full mx-auto p-6">@yield('content')</main>
+    <main class="flex-1 max-w-7xl w-full mx-auto p-6">
+        @if(session('success'))
+            <div class="mb-4 p-3 bg-emerald-950/80 border border-emerald-600 text-emerald-300 rounded-lg text-sm flex items-center justify-between">
+                <span>✓ {{ session('success') }}</span>
+            </div>
+        @endif
+        @if(session('warning'))
+            <div class="mb-4 p-3 bg-amber-950/80 border border-amber-600 text-amber-300 rounded-lg text-sm flex items-center justify-between">
+                <span>⚠ {{ session('warning') }}</span>
+            </div>
+        @endif
+        @if($errors->any())
+            <div class="mb-4 p-3 bg-rose-950/80 border border-rose-600 text-rose-300 rounded-lg text-sm">
+                <p class="font-bold mb-1">Periksa kesalahan input berikut:</p>
+                <ul class="list-disc list-inside space-y-1">
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        @yield('content')
+    </main>
 </body>
 </html>
