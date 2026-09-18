@@ -18,10 +18,10 @@ class ContentController extends Controller {
         $val = $request->validate([
             'title' => 'required|string|max:200',
             'media_type' => 'required|in:image,video,youtube,pdf,audio',
-            'media_url' => 'nullable|string',
-            'media_file' => 'nullable|file|max:51200',
+            'media_url' => 'required_without:media_file|nullable|url|max:2000',
+            'media_file' => 'required_without:media_url|nullable|file|mimes:jpg,jpeg,png,webp,mp4,webm,pdf,mp3|max:51200',
             'duration_seconds' => 'required|integer|min:5|max:300',
-            'notes' => 'nullable|string',
+            'notes' => 'nullable|string|max:1000',
         ]);
         $user = Auth::user();
         $mediaUrl = $val['media_url'] ?? '';

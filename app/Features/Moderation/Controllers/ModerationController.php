@@ -16,6 +16,7 @@ class ModerationController extends Controller {
         return back()->with('success', 'Konten disetujui tayang di TV.');
     }
     public function reject(Request $request, $id) {
+        $request->validate(['notes' => 'nullable|string|max:500']);
         Content::findOrFail($id)->update(['status' => 'rejected', 'approved_by' => Auth::id(), 'notes' => $request->notes]);
         return back()->with('warning', 'Konten ditolak.');
     }

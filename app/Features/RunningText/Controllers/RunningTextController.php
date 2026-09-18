@@ -30,8 +30,15 @@ class RunningTextController extends Controller {
         return back()->with('success', 'Running text dihapus.');
     }
     public function updateProfile(Request $request) {
-        Setting::set('school_name', $request->school_name);
-        Setting::set('school_tagline', $request->school_tagline);
+        $val = $request->validate([
+            'school_name' => 'required|string|max:100',
+            'school_tagline' => 'nullable|string|max:200',
+            'school_logo' => 'nullable|image|mimes:jpeg,png,jpg,webp,svg|max:2048'
+        ]);
+        Setting::set('school_name', $val['school_name']);
+        if (isset($val['school_tagline'])) {
+            Setting::set('school_tagline', $val['school_tagline']);
+        }
         if ($request->hasFile('school_logo')) {
             $path = $request->file('school_logo')->store('mading_assets', 'public');
             Setting::set('school_logo', '/storage/' . $path);
