@@ -1,4 +1,9 @@
 /vendor
 .env
 /storage/*.key
+/storage/framework/*
+/storage/logs/*
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+database/*.sqlite
 /node_modules
